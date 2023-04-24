@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 * {
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family:  'Noto Serif Display', serif,'Dancing Script', cursive,"Poppins", sans-serif;
   margin: 0;
   padding: 0;
   text-transform: capitalize;
   transition: all 0.5s linear;
   text-decoration: none;
   font-size: 20px;
+  font-style: italic;
+  font-weight: 1000;
 }
 /*"Herr Von Muellerhoff"*/
 :root {
@@ -355,7 +357,7 @@ html::-webkit-scrollbar-thumb {
 
 .box {
   height: 90%;
-  width: 11%;
+  width: 13%;
   padding: 1%;
   gap: 10px;
   border-radius: 8px;
@@ -384,7 +386,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .box > img {
-  width: 60%;
+  width: 70%;
   height: 40%;
 }
 
@@ -993,7 +995,14 @@ html::-webkit-scrollbar-thumb {
   padding: 2%;
   font-size: 80%;
 }
-
+h6{
+  border: solid var(--GOld);
+  color: var(--firstbrown);
+  width: 100%;
+  padding-left: 5%;
+  margin-bottom: 15%;
+  
+}
 /*----------------footer------------------------------*/
 
 .footer {
@@ -1013,7 +1022,7 @@ html::-webkit-scrollbar-thumb {
 .map {
   border-radius: 8px;
   width: 50%;
-  font-family: "Herr Von Muellerhoff";
+ text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1052,7 +1061,9 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
 }
-
+.boxFooter>p>a{
+  color: #fff;
+}
 .social {
   margin: 3%;
   display: flex;
@@ -1076,6 +1087,10 @@ html::-webkit-scrollbar-thumb {
   object-fit: cover;
 
   height: auto;
+}
+.credit>a{
+  color: white;
+  margin-left: 1%;
 }
 /*------------------------media-query--------------------*/
 

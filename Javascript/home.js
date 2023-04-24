@@ -16,14 +16,13 @@ console.log(slides);
 let index = 0;
 carousel();
 function carousel() {
-  if(slides!=undefined){
+  if (slides != undefined) {
     slides[index].classList.remove("active");
     index = (index + 1) % slides.length;
     slides[index].classList.add("active");
   }
-  
 
-  setTimeout(carousel, 5000);
+  setTimeout(carousel, 8000);
 }
 
 function next() {
@@ -78,35 +77,6 @@ function priceDisplay(category) {
   });
 }
 
-/*const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-let interval = null;
-
-document.querySelector(".random").onmouseover = event => {  
-  let iteration = 0;
-  
-  clearInterval(interval);
-  
-  interval = setInterval(() => {
-    event.target.innerText = event.target.innerText
-      .split("")
-      .map((letter, index) => {
-        if(index < iteration) {
-          return event.target.dataset.value[index];
-        }
-      
-        return letters[Math.floor(Math.random() * 26)]
-      })
-      .join("");
-    
-    if(iteration >= event.target.dataset.value.length){ 
-      clearInterval(interval);
-    }
-    
-    iteration += 1 / 3;
-  }, 30);
-}
-*/
 for (const titlePrice of document.getElementsByClassName("titlePrice")) {
   titlePrice.onmousemove = (e) => {
     const decimal = e.clientX / titlePrice.offsetWidth;
