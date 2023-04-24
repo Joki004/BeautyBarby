@@ -3,6 +3,7 @@ body {
   width: 100vw;
   margin: 0px;
   background-color: #3d2022;
+  font-family: 'Dancing Script', cursive;
 }
 
 html::-webkit-scrollbar {
@@ -17,9 +18,9 @@ html::-webkit-scrollbar-thumb {
   background: #3d2022;
 }
 
-.rubik-font {
+/*.rubik-font {
   font-family: "Rubik", sans-serif;
-}
+}*/
 
 main {
   background-image: url(./img/Logotyp\ BB.png);
@@ -78,6 +79,7 @@ body[data-nav="true"] > nav > #nav-links {
   font-size: 1.5rem;
   margin: 0rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #nav-links > .nav-link > .nav-link-image {
@@ -171,7 +173,8 @@ body[data-nav="true"] > #nav-toggle > .close {
   color: #f6e2ad;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
-  font-family: "Herr Von Muellerhoff";
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
   font-size: 4rem;
   z-index: 3;
   left: 50%;

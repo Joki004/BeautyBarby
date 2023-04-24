@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Barby</title>
-    <link rel="icon" type="image/png" href="../img/Logotyp_mini.png"/>
+    <link rel="icon" type="image/png" href="../img/Logotyp_mini.png" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display:ital,wght@0,100;0,200;1,100;1,200&display=swap"
       rel="stylesheet"
     />
 
@@ -22,21 +26,14 @@
       rel="stylesheet"
     />
   </head>
-  <body >
-    <main>
-    
-    </main>
+  <body>
+    <main></main>
 
     <nav class="welcomeNav">
+      <h1 class="name" data-value="Beauty Barby Malgorzata Bartkowiak">
+        Beauty Barby Malgorzata Bartkowiak
+      </h1>
 
-      <h1
-      class="name"
-      data-value="Beauty Bar by Malgorzata Bartkowiak"
-    
-    >
-      Beauty Barby Malgorzata Bartkowiak
-    </h1>
-    
       <div id="nav-links">
         <a class="nav-link" href="./pages/home/home.html">
           <h2 class="nav-link-label rubik-font">Dom</h2>
@@ -76,11 +73,15 @@
       </div>
     </nav>
 
-    <button id="nav-toggle" type="button"  onclick="toggleNav(),getToggleButtonState()">
+    <button
+      id="nav-toggle"
+      type="button"
+      onclick="toggleNav(),getToggleButtonState()"
+    >
       <i class="open bx bx-chevron-down"></i>
       <i class="close bx bx-chevron-up"></i>
     </button>
-  
+
     <script src="script.js"></script>
   </body>
 </html>
