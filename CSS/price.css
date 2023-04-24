@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 * {
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Serif Display', serif,'Dancing Script', cursive,"Poppins", sans-serif,"Poppins", sans-serif;
   margin: 0;
   padding: 0;
   text-transform: capitalize;
   transition: all 0.5s linear;
   text-decoration: none;
+  font-style: italic;
+  font-weight: 1000;
 }
 :root {
   --firstbrown: #331e1d;
@@ -235,7 +237,7 @@ h1 {
   border: solid;
   width: 19%;
   padding-left: 1%;
-  font-size: 20px;
+  font-size: 15px;
 }
 .priceProduct {
   justify-content: center;
@@ -263,7 +265,7 @@ h1 {
   border-top: 1px solid var(--firstbrown);
   color: black;
   display: block;
-  font-size: 40px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,12 +329,20 @@ h1 {
   background: var(--firstbrown);
   padding-left: 1%;
   padding-top: 1%;
+  gap: 8px;
 }
 
 .logoFooter {
   width: 50%;
 }
-
+.footer>p{
+  color: white;
+  margin-left: 1%;
+}
+.footer>p>a{
+  color: white;
+  margin-left: 1%;
+}
 /*------------------media query--------------------*/
 
 @media screen and (max-width: 1050px) {
